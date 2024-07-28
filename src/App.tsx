@@ -1,10 +1,12 @@
 import React from 'react';
-import { Navigation } from './routes/Navigation';
+// import { NavigationLazyLoad } from './routes/Navigation-Lazy-Load';
+import { NavigationBase } from './routes/Navigation-Base';
 
 function App() {
   return (
     <>
-     <Navigation />
+     {/* <NavigationLazyLoad /> */}
+     <NavigationBase />
     </>
   );
 }
